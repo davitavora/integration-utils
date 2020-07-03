@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.davitavorah.integration.FeignClientInterceptor,\
+  com.github.davitavorah.integration.configuration.ClientConfiguration,\
+  com.github.davitavorah.integration.IntegrationUtilsAutoConfiguration
