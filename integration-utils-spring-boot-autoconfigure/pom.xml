@@ -12,7 +12,7 @@
     <artifactId>integration-utils-spring-boot-autoconfigure</artifactId>
 
     <dependencies>
-        <!-- Spring -->
+        <!--  Spring  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -30,19 +30,17 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>${spring-feign.version}</version>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jackson</artifactId>
+            <version>${feign-jackson.version}</version>
         </dependency>
-
-        <!-- Keycloak -->
+        <!--  Keycloak  -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-admin-client</artifactId>
             <version>${keycloak-admin.version}</version>
         </dependency>
-
-        <!-- Internal -->
+        <!--  Internal  -->
         <dependency>
             <groupId>com.github.davitavorah</groupId>
             <artifactId>integration-utils-library</artifactId>
@@ -55,19 +53,16 @@
         <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <!-- Spring -->
+        <!--  Spring  -->
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
-        <spring-feign.version>2.2.2.RELEASE</spring-feign.version>
-
-        <!-- Keycloak -->
+        <!--  Keycloak  -->
         <keycloak.version>10.0.2</keycloak.version>
         <keycloak-admin.version>7.0.1</keycloak-admin.version>
-
-        <!-- Others -->
+        <!--  Others  -->
         <vavr.version>0.10.0</vavr.version>
         <lombok.version>1.18.12</lombok.version>
-
-        <!-- Maven -->
+        <feign-jackson.version>11.0</feign-jackson.version>
+        <!--  Maven  -->
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     </properties>
 
